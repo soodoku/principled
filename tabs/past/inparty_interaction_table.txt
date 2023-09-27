@@ -1,0 +1,20 @@
+	(1)
+VARIABLES	tr_inout
+	
+1.dems_react	-0.160***
+	(0.0583)
+dem_party_strength	0.0785
+	(0.0641)
+1.dems_react#c.dem_party_strength	0.207**
+	(0.0864)
+1.dems_ignore	-0.0909
+	(0.0569)
+1.dems_ignore#c.dem_party_strength	0.141*
+	(0.0832)
+Constant	0.301***
+	(0.0454)
+	
+Observations	333
+R-squared	0.125
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

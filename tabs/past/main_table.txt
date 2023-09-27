@@ -1,0 +1,14 @@
+	(1)
+VARIABLES	tr_inout
+	
+reps_ignore	0.0572
+	(0.0359)
+reps_react	-0.00938
+	(0.0338)
+Constant	0.349***
+	(0.0251)
+	
+Observations	319
+R-squared	0.013
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
