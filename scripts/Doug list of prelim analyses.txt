@@ -1,0 +1,42 @@
+Doug Stata (major) analyses thus far:
+
+*Don't forget to drop participants who fail the pretreatment attention check:
+drop if attn_check_1 != .
+drop if attn_check_2 != .
+drop if attn_check_4 != .
+drop if attn_check_6 != .
+drop if attn_check_7 != .
+drop if attn_check_8 != .
+drop if attn_check_9 != .
+drop if attn_check_10 != .
+drop if attn_check_3 != 1
+drop if attn_check_5 != 1
+
+**********
+***CODING*
+**********
+
+Three different sets of conditions:
+1) As programmed: Control, Dem_T, Dem_C, Rep_T, Rep_C
+2) In-party or out-party based story: control, in-party, out-party
+3) Reaction: control in-party ignores, in-party reacts, out-party ignores, out-party reacts
+
+Key variables:
+*in-out FT (and component parts: in FT, out FT)
+*in-party trait ratings
+	-index composed of 4 that seem relevant: open-minded, sincere, (not) ignorant, (not) hypocritical
+*out-party trait ratings (and same index)
+
+
+************
+***ANALYSIS*
+************
+
+compare three conditions in cond. list (2) above on DVs
+	*t-test of in-out FT by "in-group story" vs. "out-group story" shows apparent effect
+	*t-test of in-group trait index by same 2 conditions shows no effect
+	*But t-test of out-group trait index shows apparent effect
+
+compare three conditions in cond. list (3) above on DVs
+	*summarize variables and run tests comparing "in-party reacts" to "in-party ignores" and "out-party reacts" to "out-party ignores"
+		-DVs move in expected directions, but not significant

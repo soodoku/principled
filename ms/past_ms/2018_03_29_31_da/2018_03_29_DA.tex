@@ -1,0 +1,218 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[titletoc,title]{appendix}
+\usepackage{color}
+\usepackage{booktabs}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\definecolor{dark-red}{rgb}{0.75,0.10,0.10} 
+\usepackage[margin=1in]{geometry}
+\usepackage[linkcolor=dark-red,
+			colorlinks=true,
+			urlcolor=blue,
+			pdfstartview={XYZ null null 1.00},
+			pdfpagemode=UseNone,
+			citecolor={dark-red},
+			pdftitle={Downweighting}]{hyperref}
+
+\usepackage[resetlabels,labeled]{multibib}
+\newcites{SI}{SI References}
+\usepackage{natbib}
+
+\usepackage{float}
+
+\usepackage{geometry} % see geometry.pdf on how to lay out the page. There's lots.
+\geometry{letterpaper}               % This is 8.5x11 paper. Options are a4paper or a5paper or other... 
+\usepackage{graphicx}                % Handles inclusion of major graphics formats and allows use of 
+\usepackage{amsfonts,amssymb,amsbsy}
+\usepackage{amsxtra}
+\usepackage{verbatim}
+\setcitestyle{round,semicolon,aysep={},yysep={;}}
+\usepackage{setspace}		     % Permits line spacing control. Options are \doublespacing, \onehalfspace
+\usepackage{sectsty}		     % Permits control of section header styles
+\usepackage{lscape}
+\usepackage{fancyhdr}		     % Permits header customization. See header section below.
+\usepackage{url}                     % Correctly formats URLs with the \url{} tag
+\usepackage{fullpage}		%1-inch margins
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{epigraph}
+\setlength{\parindent}{3em}
+
+\usepackage[T1]{fontenc}
+\usepackage{bm}
+\usepackage{palatino}
+
+\usepackage{chngcntr}
+
+\def\citeapos#1{\citeauthor{#1}'s (\citeyear{#1})}
+
+\makeatother
+
+
+% Caption
+\usepackage[hang, font=small,skip=0pt, labelfont={bf}]{caption}
+%\captionsetup[subtable]{font=small,skip=0pt}
+\usepackage{subcaption}
+
+% tt font issues
+% \renewcommand*{\ttdefault}{qcr}
+\renewcommand{\ttdefault}{pcr}
+
+\setcounter{page}{0}
+
+\usepackage{lscape}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\bottomfraction}{0.95}
+\renewcommand{\floatpagefraction}{0.40}
+\setcounter{totalnumber}{5}
+\makeatletter
+\providecommand\phantomcaption{\caption@refstepcounter\@captype}
+\makeatother
+
+\title{Explaining Partisan Affect: Partisan Response to Partisan Response}
+
+\author{Douglas J. Ahler\thanks{Assistant Professor of Political Science, Florida State University, \href{mailto:dahler@fsu.edu}{\texttt{dahler@fsu.edu}}} \and Carolyn E. Roush\thanks{Democracy Postdoctoral Fellow, the Ash Center for Democratic Governance and Innovation at the Harvard Kennedy School, \href{mailto:carolyn_roush@hks.harvard.edu}{\texttt{carolyn\_roush@hks.harvard.edu}}} \and Gaurav Sood\thanks{Independent researcher, \href{gsood07@gmail.com}{\texttt{gsood07@gmail.com}}}}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\begin{abstract}
+
+\noindent 
+
+\end{abstract}
+
+\newpage
+
+\epigraph{There are many men of principle in both parties in America, but there is no party of principle.}{\textit{Alexis de Tocqueville}}
+
+\doublespacing
+
+Polarization is a defining feature of contemporary U.S. politics. Increasingly, it bleeds into broader society. According to a recent Pew study, Americans perceive party conflict as the defining cleavage of the day: 86\% of Americans believe that strong conflict exists between Democrats and Republicans today (with 64\% describing that conflict as ``very strong''). For comparison, 65\% of Americans say that strong conflict exists between black and white citizens, with just 27\% describing that conflict as ``very strong'' (ADD PEW CITATION). At the mass level, this conflict generally manifests itself affectively \citep{IyengarSoodLelkes2012}. Democrats and Republicans increasingly dislike each other, see the other party as a threat to the nation's well being, discriminate against out-party supporters, and would prefer to avoid social contact with them (ADD SOME CITATIONS). Ultimately, some argue, this animus and distrust has the potential to undermine trust in government and democratic legitimacy (CITE HETHERINGTON).
+
+What explains this increasing hostility between Democratic and Republican supporters? Obviously, there is no singular cause. We can, however, group potential explanations into broader categories. One sensible dichotomy, proposed by \citet{IyengarSoodLelkes2012}, is that partisan affect may be \emph{principled} or \emph{unprincipled}. \citeauthor{IyengarSoodLelkes2012} conceive of principled affect as grounded in policy preferences: Democrats may dislike Republicans because they find their policy positions unpalatable, and vice versa. They find little support for this hypothesis, instead arguing that ``the mere act of identifying with a political party is sufficient to trigger negative evaluations of the opposition'' (p. 407). Subsequent research has generally supported this conclusion. For example, partisan anger and bias appear to be more related to political identities than policy preferences \citep{mason_2015}. And the psychology of affective polarization generally supports ``unprincipled animus.'' Not only do longstanding personality traits predict citizens' animus toward the out-party (TROLL-CITE WEBSTER), but this negativity appears to be automatic (CITE IYENGAR AND WESTWOOD).
+
+But even if partisan animus doesn't stem from policy preferences---a proposition still up for debate (CITE ROGOWSKI AND ABRAMOWITZ)---it may still be principled. People may dislike the out-party not because of what they believe, but instead out of behavior they observe. Most notably, citizens may dislike out-party supporters because they observe blatant motivated reasoning. Partisans process information in a biased way and reason toward factual conclusions that are congenial to their party, often ignoring contrary details (CITATIONS). For example, who sits in the White House colors partisans' economic evaluations (CITATIONS: BARTELS, BISGAARD), and their responses to political scandals depend on the party involved. This type of reasoning is on display in News Feeds and comments sections across the internet. Partisans may observe it and perceive the other side as uninformed or intransigent, leading to enmity across party lines.
+
+We investigate this potential source of partisan animus through a series of experiments. We rely on experimental designs because Democrats and Republicans interpret real-world events through their own ``perceptual screen[s]'' \citep{campbell1960} more or less simultaneously, meaning we lack opportunities to study Democrats' feelings toward Republican supporters in the absence of Republican motivated reasoning (and vice versa).In this early draft, we present evidence from a pilot study suggesting that partisans' observation of out-party bias may exacerbate polarization, although these apparent effects are imprecisely estimated. More apparent, however, is evidence for partisan cheerleading: partisans rate their own party \emph{less} warmly when their co-partisans hold party elites accountable for their errors. This suggests that, to the extent that people's beliefs about partisan motivated reasoning color their feelings toward the parties, they do so in a less-than-principled. A design for a larger-$n$ survey experiment to be fielded in the coming weeks builds on these pilot results.
+
+\section*{Principled Partisan Affect, or a Partisan Bias Blind Spot?}
+
+This may lead Americans to walk away from inter-party conversations frustrated. Essentially, \emph{second-order reasoning}---reactions to the other side's political reasoning---could be a principled source of partisan animus. 
+
+How principled is another question. If partisans observe motivated reasoning on both sides of the political spectrum---and update their feelings toward both parties accordingly---second-order reasoning is unbiased. We could think of such behavior as ``principled partisanship'': Democrats and Republicans feel more warmly toward their own party, but react negatively to lazy reasoning on either side. Such second-order reasoning could fuel dislike between the parties but would be unlikely to polarize partisan sentiments, since both Democrats and Republicans alike would ultimately become discouraged with supporters of \emph{both} parties. But what if people have biased second-order beliefs about partisan motivated reasoning? That is, what if they observe and disapprove of out-party motivated reasoning but fail to do so when their co-partisans show bias?
+
+We have reason to expect this might be the case. People are quite good at recognizing biased reasoning---except their own (CITE PRONIN PAPERS). This tendency is liable to extend from the individual to the hive mind that is the mass party. In addition to failing to recognize their individual biases, people tend to ascribe all kinds of negative traits to out-groups (CITE SCHEMA SHIT, HALO EFFECT). In the age of whataboutism, when ``hypocritical'' is a routine slur in partisan warfare, party supporters are liable to see failures of reasoning behind enemy lines while overlooking them within their own ranks.
+
+The effect of such ``motivated updating'' would be polarization. If Democrats grouse about Republicans' reasoning failures without penalizing their co-partisans, and Republicans eschew Democrats' hackery without checking their own, the feelings that everyone reports about the out-party are liable to decline while in-party sentiment holds constant. This is exactly the pattern we've observed over the past several decades---perhaps not coincidentally, since the emergence of ``guerilla tactics'' (CITE SCHICKLER) in congressional conflict.
+
+Another, even more perverse, possibility exists. Partisans may react negatively to reasoning failures on \emph{both} sides. That is, people might malign out-party supporters for their own motivated reasoning while also disapproving of their co-partisans' failure to reason to the ``appropriate'' conclusion. We have reason to expect such \emph{partisan cheerleading}. DISCUSS BULLOCK ETC...
+
+
+\section*{Pilot: Partisan Response to Partisan Response to Scandals}
+
+Does observation of outparty bias exacerbate affective polarization? Unfortunately, we lack the causal leverage to answer this question using observational data. Democrats and Republicans interpret real-world events through their own ``perceptual screen[s]'' \citep{campbell1960} more or less simultaneously, making it impossible to isolate any effect that observing outparty bias may have on outparty dislike. To circumvent this problem, we rely upon a randomized, controlled experiment to determine if and how partisans' exposure to outparty bias exacerbates the negativity they feel for their opponents. Specifically, we use a series of vignettes featuring real political controversies and manipulate whether or not copartisan politicians subsequently lost support among their base. This design holds constant both the controvery and the elite embroiled in the controversy, which helps to rule out important confounding variables that could muddle inferences drawn from observational data. 
+
+We focus on controversies (and partisans' reaction to them) in this experiment for a few reasons. For one, controversies are a relatively easy way for citizens to hold politicians accountable for their actions. Typically, political accountability is assessed in one of two ways:  (1) whether elected officials espouse and pursue the policies favored by their constituents and/or (2) whether elected officials are seen as contributing positively to government performance (most commonly assessed by economic outcomes). Evaluating politicians on these bases requires a certain level of political sophistication and objectivity that most ordinary citizens lack. As a result, people often fail to hold elected officials accountable using these metrics \citep[e.g.,][]{achen2016democracy,Bartels2008,healylenz_2014,Lenz2012,snidermanstiglitz_2012,soodiyengar_2014}. Evaluating a specific controversy or misstep, on the other hand, requires much less cognitive effort and investment. For one, voters do not have to proactively search for information about these types of controversies; they are covered extensively by the media, and in particular by ideologically dissimilar outlets \citep{budaketal_2016,puglisisnyder_2011}. Secondly, controversies often surround topics that are nominally ideological in content. For example, our vignettes feature two prominent, real world controversies concerning an administrative failure and an inability to compromise. Because these outcomes are generally considered to undesirable outside of politics, observing the other side's failure to punish their leaders may strike partisans as particularly egregious --- thus heightening outparty animosity. 
+
+To test this theory, we recruited 930 people to participate in a survey administered through Amazon's Mechanical Turk in November 2013. To preclude suspicion, we told respondents they would be participating in a survey on political media consumption and political learning. Prior to our experiment, we posed a question to determine whether or not respondents were paying attention to the survey. In particular, the question asked respondents to mark two particular responses. Of the 930 respondents, 38 respondents failed to complete the task as requested. We removed these participants from our sample as we felt that they were merely adding noise to the data. Because we are interested in \textit{partisans'} reactions to outparty bias, we further subset our analysis to include only self-identified and leaning partisans.\footnote{We group together ``leaning'' Independents with ``strong'' and ``weak'' partisans per previous research demonstrating Independent leaners think and behave like partisans \citep{keithetal_1992}.} Of the 726 self-identified and leaning partisans, 552 are Democrats, consistent with the general liberal bias in MTurk samples \citep{BerinskyHuberLenz2012}. 
+
+Participants were randomly assigned to read a news story on (what was) one of three contemporary political controversies: (1) the troubled rollout of the U.S. health exchange website, Healthcare.gov (which we classify as a Democratic controversy), (2) Senator Ted Cruz's decision to force a government shutdown (which we classify as a Republican controversy), and (3) Toronto mayor Rob Ford's drug abuse scandal (our control). We selected these the Cruz and Healthcare.gov cases because they were timely examples of real-world, high-profile missteps that generated significant news coverage. Within these two experimental groups, we further manipulated whether Democrats' (Republicans') opinions of Obama (Cruz) changed in response to the blunder. This created five conditions based on vignette content:  (1) \textit{Democrats - Unbiased}, in which Democrats show less support for Obama post-controversy, (2) \textit{Democrats - Biased}, in which Democrats maintain high support for Obama post-controversy, (3) \textit{Republicans - Unbiased}, in which Republicans show less support for Cruz post-controversy, (4) \textit{Republicans - Biased}, in which Republicans maintain high support for Cruz post-controversy, and (5) \textit{Control.} (See Appendix A1 for vignettes.) After exposing respondents to these stories, we asked them to rate the Democratic and Republican parties using feeling thermometers. We use party feeling thermometer scores as our dependent variables in this study because they are the most common means by which to measure affective polarization \citep[e.g.,][]{haidthetherington_2012,hetheringtonrudolph_2015,IyengarSoodLelkes2012,iyengarwestwood_2014,mason_2015}. 
+
+Though our sample is disproportionately Democratic, we analyze the results of our experiment separately among Democrats and Republicans to detect any partisan differences in response to the treatments.\footnote{Research suggests that Democrats and Republicans may process information differently \citep{grossmanhopkins_2016}.} We also elect to analyze the feeling thermometers as separate dependent variables, as previous research demonstrates that the growing gulf in partisan affect has been caused primarily by increasing dislike of the outparty and not by a corresponding increase in warm inparty feelings \citep{haidthetherington_2012, IyengarSoodLelkes2012}. As outparty negativity is the ``prime mover'' over time, we might also expect our experiments to produce greater variation in the outparty feeling thermometers compared to the inparty feeling thermometers. Accordingly, our analysis produces four OLS regressions that analyze the impact of our experimental manipulation on out- and inparty affect among Democrats and Republicans. 
+
+For each model, we include four dummy variables representing assignment to one of our experimental conditions - (1) \textit{Outparty - Unbiased} (\textit{Democrats - Unbiased} for Republicans; \textit{Republicans - Unbiased} for Democrats); (2) \textit{Outparty - Biased} (\textit{Democrats - Biased} for Republicans; \textit{Republicans - Biased} for Democrats); (3) \textit{Inparty - Unbiased} (\textit{Democrats - Unbiased} for Democrats and \textit{Republicans - Unbiased} for Republicans); and (4) \textit{Inparty - Biased} (\textit{Democrats - Biased} for Democrats and \textit{Republicans - Biased} for Republicans).\footnote{\textit{Control} is omitted as the reference category.} Respondents receive a value of 1 if they were assigned to that particular condition and a value of 0 if they were not. The dependent variables --- the in- and outparty feeling thermometers --- range from 0 to 100. Positive coefficients indicate an increase in warmth toward the party in question; negative coefficients indicate a decrease in warmth toward the party in question.
+
+Given our theory that partisans respond disproportionately to outparty bias and that observation of outparty bias heightens negative feelings toward the other side, we expect the largest experimental effects to appear among those respondents assigned to the \textit{Outparty - Unbiased} or \textit{Outparty - Biased} conditions. It is our expectation that observing the other's side lack of response  to a controversy (\textit{Outparty - Biased}) increases negative affect toward the outparty (meaning that coefficients in these conditions should be negative). Conversely, those partisans who observe the other side reacting in a more ``unbiased'' manner --- those assigned to the \textit{Outparty - Unbiased} --- should feel, on average, more warmly toward their opponents, since the vignette suggests that their political opponents are more rational than anticipated. We have fewer expectations about how our experiment might affect people's feelings toward their own side. Since we argue partisans' response to bias is asymmetric, we do not expect information about whether one's own side engaged or did not engage in motivated reasoning to meaningfully influence inparty affect.\footnote{As noted previously, inparty feeling thermometer scores have remained relatively stable over time, which suggests these ratings are far less sensitive to stimuli than outparty ratings \citep{haidthetherington_2012, IyengarSoodLelkes2012}.} Finally, we should observe little to no effect of assignment to either the \textit{Outparty - Unbiased} or \textit{Outparty - Biased} conditions on \textit{in}party affect and for a similar null effect of assignment to the \textit{Inparty - Unbiased} or \textit{Inparty - Unbiased} conditions on \textit{out}party affect, since it is not immediately clear why information about one's own party's bias (or lack thereof) should influence feelings toward the opposite party. 
+
+Table 1 presents the results of our experiment. We find mixed support for our hypotheses. Looking first at how our treatments may have affected Republicans' attitudes toward the Democratic Party (Column 1), we find a substantively significant increase in Republicans' warm feelings toward the Democratic Party after they were told that Democrats changed their opinions of Obama following the Healthcare.gov blunder. Republicans in this condition rated the Democratic Party on average about 6 percentage points warmer ($\hat{\beta}$ = 6.640) compared to those in the control group. That being said, this effect is not statistically significant at conventional levels (\textit{p}=0.22).\footnote{This is likely due to the small number of Republicans in the study.} Those Democrats who were also assigned to the \textit{Outparty - Unbiased} condition, on the other hand, did not appear to respond significantly to the treatment. Being told that Republicans  ``correctly'' updated their approval of Cruz following the government shutdown did not appear to alter Democrats' feelings toward their opponents in any substantively or significantly meaningful way ($\hat{\beta}$ = 0.428, \textit{p}=0.89). Overall, Republicans' behavior in response to this treatment appeared to conform to our expectations while Democrats' did not.
+
+\begin{spacing}{1}
+\begin{table}[H]
+\begin{center}
+\captionsetup{font={it}}
+\caption{Party Affect by Experimental Condition}
+\bigskip
+\resizebox{.8\textwidth}{!}{
+\begin{tabular}{lcccc} \hline
+ & \multicolumn{2}{c }{Outparty Affect} & \multicolumn{2}{c }{Inparty Affect} \\ \hline \hline
+  & (1)  & (2)  &  (3) &  (4) \\
+ & Republicans & Democrats & Republicans & Democrats \\ \hline
+ &  &  &  &  \\
+Outparty - Unbiased & 6.640 & 0.428 & 8.991* & -6.026** \\
+ & (5.409) & (2.799) & (4.943) & (2.749) \\
+  &  &  &  &  \\
+Outparty - Biased & -0.972 & 1.222 & -2.880  & -2.635 \\
+ & (5.409) &  (2.970) & (4.943)  & (2.918) \\
+  &  &  &  &  \\
+Inparty - Unbiased & 2.942 & 2.920 & -3.337  & -5.317* \\
+ & (5.190) & (2.848) & (4.744) & (2.798) \\
+  &  &  &  &  \\
+Inparty - Biased & -4.191 &  4.075 & 1.375  & -1.102 \\
+ & (5.314) & (2.820) & (4.859)  & (2.270) \\
+  &  &  &  &  \\
+Constant & 30.585*** &  23.580*** & 63.171*** & 68.010*** \\
+ & (3.549) & (2.078) & (3.244)  & (2.042) \\
+ &  &  &  &  \\
+Observations & 172 & 552 & 172  & 552 \\
+ R-squared & 0.025 & 0.006 & 0.042 & 0.013 \\ \hline
+&  &  &  &  \\
+\multicolumn{5}{c}{ Standard errors in parentheses.} \\
+\multicolumn{5}{c}{ ***\textit{p}$<$0.01, **\textit{p}$<$0.05, *\textit{p}$<$0.1, two-tailed.} \\
+\end{tabular}}
+\bigskip
+\captionsetup{font={footnotesize,it}}
+\caption*{Source: 2013 MTurk Study.}
+\end{center}
+\end{table}
+\end{spacing}
+
+\bigskip
+Assignment to the \textit{Outparty - Biased} condition, on the other hand, did not appear to alter either Democrats' or Republicans' feelings toward their opponents (Columns 1 and 2). Neither coefficient ($\hat{\beta}$ = -0.972, \textit{p}=0.86 for Republicans; $\hat{\beta}$ = 1.222, \textit{p}=0.68 for Democrats) is substantively or statistically significant. While our original expectation was that assignment to these conditions would moderate outparty antipathy, we instead find that informing partisans that the other side maintained its support for their leader in the wake of controversy has little to no substantive effect on their outparty evaluations. 
+
+While these results may appear puzzling at first, our treatments may have failed to move outparty affect because partisans are predisposed to assume that the outparty will react in a biased manner. That is, partisans may anticipate that outparty politicians will continue to receive sustained support from their followers after a scandal because such behavior is commonplace in American politics.\footnote{Indeed, previous work demonstrates that coparty politicians do not tend to lose support among partisans in the wake of scandals \citep{ahlersood_2014}.} This may also explain why we see more of an effect (at least among Republicans) in the \textit{Outparty - Unbiased} condition: respondents were affected more by news that the outparty was \textit{unbiased} because this information is unusual and surprising \citep[e.g.,][]{maheswaranchaiken_2011}.
+
+Some of the largest experimental effects emerge in those conditions in which we expected null results. Perhaps most interestingly, both groups of partisans appeared to feel \textit{less} warmly toward their own side after being told copartisan politicians lost support among their base (row 3 in Columns 3 and 4). On average, those Republicans who were told that Cruz's approval dropped rated the Republican Party three percentage points more negatively (though this effect is not statistically significant at conventional levels; $\hat{\beta}$ = -3.337, \textit{p}=0.48). The effect among Democratic respondents in the \textit{Inparty - Unbiased} condition was also substantively large and statistically significant; on average, those Democrats who were told their copartisans approved less of Obama following the misstep rated their own party about five degrees cooler ($\hat{\beta}$ = -5.317, \textit{p}=0.06). Taken together, these results suggest that while partisans may punish the other side for engaging in motivated reasoning, they actually \textit{reward} their own side for exhibiting favorable bias toward a co-party politician. In this way, partisans seem to approve of ``partisan cheerleading'' \citep{bullocketal_2015} on their own side but punish their opponents for engaging in the same practice. 
+
+Finally, we find some unexpected and perplexing results in our remaining conditions. Specifically, we find that outparty affect appears to be responsive to cues from one's own party and vice versa. While most of these effects are not statistically significant, their direction and magnitude warrant a closer look. For example, both Republicans and Democrats who were told that their own party reneged its support for a copartisan leader rated the \textit{other party}, on average, about three degrees warmer than their copartisans in the control group ($\hat{\beta}$ $_{\textit{Inparty - Unbiased}}$ = 2.942, \textit{p}=0.57 for Republicans; $\hat{\beta}$ $_{\textit{Inparty - Unbiased}}$ = 2.920, \textit{p}=0.30 for Democrats). We also found that both groups of partisans appeared to rate their own side about three degrees \textit{cooler} after learning that the other side engaged in motivated reasoning ($\hat{\beta}$ $_{\textit{Outparty - Biased}}$ = -2.880, \textit{p}=0.56 for Republicans; $\hat{\beta}$ $_{\textit{Outparty - Biased}}$ = -2.635, \textit{p}=0.36 for Democrats). 
+
+For the remaining conditions, we found that Democrats and Republicans differed in their responses to the same treatment. For example, those Republicans who were told that their own party engaged in mtoivated reasoning  (\textit{Inparty - Biased}) rated the other side about four percentage points \textit{less} favorably ($\hat{\beta}$ = -4.191, \textit{p}=0.43), while Democrats responded by rating the other side about four percentage points \textit{more} favorably ($\hat{\beta}$ = 4.075, \textit{p}=0.15). While neither of these effects are statistically significant, we find a similar discrepancy in partisans' response to the \textit{Outparty - Biased} condition. Here, we find that Republicans rated their own party a statistically significant nine percentage points warmer when they observed a loss in Democratic support for Obama ($\hat{\beta}$ = 8.991, \textit{p}=0.07), and Democrats rated their own party a statistically significant 6 points cooler after observing similar behavior among Republicans ($\hat{\beta}$ = -6.026, \textit{p}=0.03). These are, in fact, the largest effect sizes in the study and among the few that are statistically significant at conventional levels. While the discrepancy between positive and negative effects may be reflective of the fact that partisans think differently from one another \citep{grossmanhopkins_2016}, we are nevertheless puzzled by the fact that out- (in)party feeling thermometers move significantly in response to in- (out)party treatments. We welcome any and all thoughts or interpretations concerning these results. 
+
+\section*{Research Design, Study II: Partisan Response to Partisan Retrospective Evaluations}
+
+While some of the experimental results above conformed to our expectations, many others did not. There are, however, some significant flaws in the study's design that suggest it may not be the best test of our theory. First, the relatively small number of respondents in the study makes it difficult to draw reliable statistical inferences. This is particularly problematic when drawing generalizations about Republican identifiers; on average, each experimental group had only a little more than 30 Republican respondents. While there are fewer statistical obstacles to analyzing Democrats' behavior in the study --- each condition had about 100 Democratic respondents --- we may still lack a large enough sample size to detect small effects \citep[e.g.,][]{cohen_1992}. 
+
+Secondly, our treatments may not be strong enough to produce meaningful effects. In the design above, we manipulated whether partisans observed bias in the approval ratings of partisan leaders as indication of motivated reasoning. While approval ratings are certainly subject to partisan bias, 
+
+We plan to ameliorate these 
+
+
+First study underpowered - we're getting a bigger n and a nationally representative survey this time around 
+
+Treatment may not be strong enough - we asked people to make judgments based on a partisan attitude - people may expect that reaction because approval is subjective - but it's harder to deny interpretations of fact
+
+Finally, does presenting bias on part of both sides attenuate affective polarization? Not considered in first study
+
+
+\section*{Discussion and Conclusion}
+
+\clearpage
+
+\bibliographystyle{apsr}
+\bibliography{xperceive}
+
+\clearpage
+
+\appendix
+\renewcommand{\thesection}{A \arabic{section}}
+\renewcommand\thetable{\thesection.\arabic{table}}  
+\renewcommand\thefigure{\thesection.\arabic{figure}}
+\counterwithin{figure}{section}
+
+
+
+
+
+
+\end{document}
