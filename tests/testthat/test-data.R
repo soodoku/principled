@@ -62,3 +62,20 @@ testthat::test_that("public extracts have only numeric responses and synthetic r
     )))
   }
 })
+
+testthat::test_that("relative-bias responses follow the portrayed party and retain nonresponse", {
+  d <- read_yougov(file.path(root, "data/raw/yougov.csv"))
+  testthat::expect_true(all(is.na(d$relative_bias[d$arm == "Control"])))
+  z <- d[d$party %in% c("Democrat", "Republican"), ]
+  for (arm in c("Unbiased", "Biased")) {
+    values <- z$relative_bias[z$arm == arm]
+    counts <- tabulate(ifelse(is.na(values), 5L, values), nbins = 5L)
+    expected <- if (arm == "Unbiased") {
+      c(39L, 138L, 129L, 66L, 2L)
+    } else {
+      c(61L, 63L, 174L, 75L, 3L)
+    }
+    testthat::expect_identical(counts, expected)
+    testthat::expect_equal(sum(counts), length(values))
+  }
+})

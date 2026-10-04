@@ -154,6 +154,17 @@ for (j in seq_len(nrow(p))) {
   add(paste0(prefixes[j], "PermutationP"), fmt(permutation$p[j], 3))
 }
 
+reported_bias <- read.csv("tabs/reported_bias.csv")
+
+for (arm in c("Unbiased", "Biased")) {
+  for (response in c("More", "Less", "Same")) {
+    label <- c(More = "More biased", Less = "Less biased", Same = "About as biased")[[response]]
+    r <- reported_bias[reported_bias$arm == arm & reported_bias$response == label, ]
+    stopifnot(nrow(r) == 1)
+    add(paste0("Yg", arm, response, "Bias"), fmt(r$percent, 0))
+  }
+}
+
 writeLines(vapply(names(macros), function(n) {
   paste0(
     "\\newcommand{\\", n, "}{",
@@ -311,6 +322,19 @@ for (party in c("Independent", "Unaligned")) {
 }
 
 write_table(lines, "nonpartisans", "llrr")
+
+lines <- c(
+  row("Relative to expectations", "Fair-minded opposition", "Biased own party"),
+  "\\midrule"
+)
+
+for (response in unique(reported_bias$response)) {
+  r <- reported_bias[reported_bias$response == response, ]
+  cells <- paste0(fmt(r$percent, 1), "\\% (", r$n, ")")
+  lines <- c(lines, row(response, cells[r$arm == "Unbiased"], cells[r$arm == "Biased"]))
+}
+
+write_table(lines, "reported_bias", "lrr")
 
 readme <- readLines("docs/README.md.in")
 

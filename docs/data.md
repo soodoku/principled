@@ -35,6 +35,6 @@ The supplied directory must contain `mturk_as/partisanresponse.csv` and `yougov_
 - `ftdems` and `ftreps` are actual 0–100 thermometer responses; 998 is nonresponse.
 - `dem_*` and `gop_*` are the six trait responses. Their exact labels and codes are in the exported dictionary. Codes 8–9 are not treated as substantive scale values.
 - `weight` is the positive vendor weight. The codebook describes recruitment, matching, and calibration. No new weights are fitted in this repository.
-- `aware` and the three `*_check` fields are post-article checks. They are not used to select the main sample.
+- `aware` and the three `*_check` fields are post-article checks. They are not used to select the main sample. After the affect outcomes, `dem_check` (articles 2–3) and `rep_check` (articles 4–5) ask whether the portrayed party was more biased (1), less biased (2), or about as biased (3) as previously expected; 4 is “don’t know,” and 8–9 are missing. `relative_bias` selects the portrayed party’s response and is missing for control respondents, who received a different check.
 
 The merged survey deliveries contain the same core 2018 observations and a subset of earlier-wave responses; the 2018 source supplies the common cross-sectional experiment. The public release does not depend on an undocumented merge or treat the partially observed earlier wave as a complete baseline.

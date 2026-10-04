@@ -8,24 +8,27 @@ Douglas J. Ahler, Carolyn E. Roush, and Gaurav Sood
 
 ## TL;DR
 
-Do people reward fellow partisans for holding their leaders accountable, or prefer them to remain loyal? Do they warm to opponents who appear fair-minded? Two survey experiments offer limited evidence on these questions.
+**Is partisan affect principled?** If people dislike opponents partly because they seem blindly partisan, seeing them hold their leaders accountable should make them more likable. The same standard should favor accountability among one's own allies and penalize their refusal to acknowledge wrongdoing.
 
-### 2013: Do people reward their own side for withdrawing support?
+**The evidence points toward a possible preference for loyalty from one's own side and modest benefits from portraying opponents as fair-minded.** It offers little indication of a large immediate improvement in warmth toward opponents. But uncertainty, missing responses, and the treatment designs prevent stronger conclusions about the size of those effects or a partisan double standard.
 
-MTurk respondents read news stories saying that Democrats' support for Obama or Republicans' support for Cruz either **declined or remained high after a controversy**. They then rated how warmly they felt toward Democrats and Republicans. The outcome was their view of those partisan groups.
+### 2013: Do people like partisans more when they withdraw support after controversy?
 
-- When the story concerned **their own party**, respondents who read about declining support rated their fellow partisans **less warmly** than those who read about sustained support: a **@MtInEstimate@-point difference** on a 0–100 scale (95% CI @MtInCI@).
-- When the story concerned **the opposing party**, declining support produced slightly **warmer ratings of that party's members**: a **@MtOutEstimate@-point difference** (@MtOutCI@).
+MTurk respondents read that Democrats' support for Obama or Republicans' support for Cruz either **declined or remained high after a controversy**, then rated their warmth toward Democrats and Republicans on a 0–100 scale.
 
-The first estimate points in the opposite direction from rewarding one's own side for holding its leader accountable. It could reflect a preference for loyalty. **But both confidence intervals include zero, and the stories differed in more than the approval trend.** These results do not establish a preference for loyalty, a reward for accountability, or different standards for allies and opponents.
+- **Own party:** declining rather than sustained support yielded **lower warmth toward fellow partisans**: @MtInEstimate@ points (95% CI @MtInCI@). This points toward valuing loyalty over accountability. The interval leaves little room for a positive reward for withdrawing support, although it does not establish a negative effect.
+- **Opposing party:** declining support yielded **slightly higher warmth toward its members**: @MtOutEstimate@ points (@MtOutCI@). This fits the idea that opponents become more likable when they hold their leader accountable, but the estimate is small and imprecise.
 
-### 2018: Do fair-minded opponents become more appealing?
+The difference between these effects is @MtAsymmetryEstimate@ points (@MtAsymmetryCI@), so their opposite signs do not establish different standards for allies and opponents. Nor do the stories establish that respondents agreed the leader had behaved badly or that withdrawing support was justified.
 
-YouGov respondents read a control article, an article portraying the opposing party as fair-minded, or one portraying their own party as biased. They then rated the parties' traits and how warmly they felt toward them.
+### 2018: Do fair-minded opponents gain favor, and biased allies lose it?
 
-The article portraying opponents as fair-minded raised favorable trait ratings by **@YgOutTraitEstimate@ points** on a 0–100 scale (95% CI @YgOutTraitCI@), but changed warmth by only **@YgOutFtEstimate@ points** (@YgOutFtCI@). The article portraying respondents' own party as biased produced no clear penalty. The trait improvement is suggestive; its precision depends on survey weighting and whether the index requires answers to every item.
+YouGov respondents read a control article, an article portraying opponents as fair-minded, or one portraying their own party as biased.
 
-YouGov did not show partisans stories about **fair-minded allies or biased opponents**. It therefore cannot test whether people judge the same behavior differently depending on which party displays it. Both studies measure immediate reactions to particular news stories, whose wording and commentary changed along with the depicted behavior. Neither establishes actual reasoning quality or lasting attitude change.
+- **Fair-minded opponents:** favorable trait ratings rose by an estimated **@YgOutTraitEstimate@ points** (95% CI @YgOutTraitCI@), while warmth changed by **@YgOutFtEstimate@ points** (@YgOutFtCI@), both on 0–100 scales. The trait estimate remains modest and positive across weighting and item-completeness choices; its precision varies. Neither primary interval excludes zero.
+- **Biased allies:** there was **no clear penalty** in warmth (@YgInFtEstimate@; @YgInFtCI@) or traits (@YgInTraitEstimate@; @YgInTraitCI@). This need not mean people excuse bias. Asked afterward, @YgBiasedMoreBias@% said their party was more biased than expected, while @YgBiasedSameBias@% said it was about as biased. Many readers may have learned little that changed their view.
+
+Those retrospective answers cannot establish belief change or explain the treatment effects. More broadly, small estimated changes are not proof that affect cannot move: the intervals allow larger effects, and missing YouGov warmth ratings make the full-sample effect especially uncertain. Both experiments changed several article features at once. YouGov also lacked **fair-minded allies and biased opponents**, so it cannot compare responses to the same behavior across party lines. The results concern immediate evaluations after these particular stories.
 
 ## Reproduce
 

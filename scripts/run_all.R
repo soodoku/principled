@@ -166,6 +166,23 @@ save_table(flow, "sample_flow")
 
 save_table(as.data.frame(with(yg, table(party, arm))), "yougov_assignment")
 
+reported_bias <- list()
+
+for (arm in c("Unbiased", "Biased")) {
+  z <- y[y$arm == arm, ]
+  response <- factor(ifelse(is.na(z$relative_bias), 5, z$relative_bias),
+    levels = 1:5,
+    labels = c("More biased", "Less biased", "About as biased", "Don't know", "Missing")
+  )
+  counts <- as.data.frame(table(response))
+  reported_bias[[arm]] <- data.frame(
+    arm = arm, response = counts$response, n = counts$Freq,
+    assigned = nrow(z), percent = 100 * counts$Freq / nrow(z)
+  )
+}
+
+save_table(do.call(rbind, reported_bias), "reported_bias")
+
 save_table(as.data.frame(with(mt, table(party, article, attention))), "mturk_assignment")
 
 save_table(as.data.frame(with(yg, table(party, current_party))), "party_reconciliation")

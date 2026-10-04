@@ -129,6 +129,10 @@ read_yougov <- function(path = "data/raw/yougov.csv") {
     }
   }
   d$assigned <- !is.na(d$arm)
+  d$relative_bias <- clean_codes(ifelse(
+    d$article_treat %in% c(2, 3), d$dem_check, d$rep_check
+  ), 1:4, c(8, 9))
+  d$relative_bias[d$arm == "Control"] <- NA_real_
   d$dem_ft <- clean_codes(d$ftdems, 0:100, 998)
   d$rep_ft <- clean_codes(d$ftreps, 0:100, 998)
   traits <- c("ignorant", "sincere", "open_reason", "smug", "patriotic", "hypocritical")
