@@ -8,11 +8,24 @@ Douglas J. Ahler, Carolyn E. Roush, and Gaurav Sood
 
 ## TL;DR
 
-Do people warm to political opponents who appear fair-minded, and punish their own side for apparent bias? Two survey experiments provide limited evidence of either response.
+Do people reward fellow partisans for holding their leaders accountable, or prefer them to remain loyal? Do they warm to opponents who appear fair-minded? Two survey experiments offer limited evidence on these questions.
 
-- **Design.** A 2013 MTurk experiment varied whether Democrats' approval of Obama or Republicans' approval of Cruz declined or remained high after a controversy. A 2018 YouGov experiment assigned partisans to a control article, an article portraying the opposition as fair-minded, or one portraying their own party as biased. These were researcher-modified news stories, with differences beyond the reasoning attributed to partisans.
-- **Main findings.** In YouGov, the fair-minded-opposition article raised favorable trait ratings by **@YgOutTraitEstimate@ points** on a 0–100 scale (95% CI @YgOutTraitCI@), but changed warmth by only **@YgOutFtEstimate@ points** (@YgOutFtCI@). The biased-own-party article produced no clear penalty. In MTurk, declining rather than sustained approval changed own-party warmth by **@MtInEstimate@ points** (@MtInCI@), an uncertain estimate in the opposite direction from a reward for holding one's side accountable. The corresponding opposition estimate was **@MtOutEstimate@** (@MtOutCI@).
-- **Interpretation.** The trait result is suggestive and sensitive to weighting and item completeness. The evidence does not establish a partisan double standard or show that perceived reasoning quality caused the responses. YouGov never assigned partisans to fair-minded-own-party or biased-opposition stories, so that study cannot separate the target's party from its portrayed behavior. Neither study measures actual reasoning or lasting attitude change.
+### 2013: Do people reward their own side for withdrawing support?
+
+MTurk respondents read news stories saying that Democrats' support for Obama or Republicans' support for Cruz either **declined or remained high after a controversy**. They then rated how warmly they felt toward Democrats and Republicans. The outcome was their view of those partisan groups.
+
+- When the story concerned **their own party**, respondents who read about declining support rated their fellow partisans **less warmly** than those who read about sustained support: a **@MtInEstimate@-point difference** on a 0–100 scale (95% CI @MtInCI@).
+- When the story concerned **the opposing party**, declining support produced slightly **warmer ratings of that party's members**: a **@MtOutEstimate@-point difference** (@MtOutCI@).
+
+The first estimate points in the opposite direction from rewarding one's own side for holding its leader accountable. It could reflect a preference for loyalty. **But both confidence intervals include zero, and the stories differed in more than the approval trend.** These results do not establish a preference for loyalty, a reward for accountability, or different standards for allies and opponents.
+
+### 2018: Do fair-minded opponents become more appealing?
+
+YouGov respondents read a control article, an article portraying the opposing party as fair-minded, or one portraying their own party as biased. They then rated the parties' traits and how warmly they felt toward them.
+
+The article portraying opponents as fair-minded raised favorable trait ratings by **@YgOutTraitEstimate@ points** on a 0–100 scale (95% CI @YgOutTraitCI@), but changed warmth by only **@YgOutFtEstimate@ points** (@YgOutFtCI@). The article portraying respondents' own party as biased produced no clear penalty. The trait improvement is suggestive; its precision depends on survey weighting and whether the index requires answers to every item.
+
+YouGov did not show partisans stories about **fair-minded allies or biased opponents**. It therefore cannot test whether people judge the same behavior differently depending on which party displays it. Both studies measure immediate reactions to particular news stories, whose wording and commentary changed along with the depicted behavior. Neither establishes actual reasoning quality or lasting attitude change.
 
 ## Reproduce
 
