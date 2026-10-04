@@ -1,0 +1,77 @@
+"study","party","arm","outcome","assigned","observed","missing"
+"MTurk 2013","Democrat","Control","in_ft",100,100,0
+"MTurk 2013","Democrat","In decline","in_ft",114,114,0
+"MTurk 2013","Democrat","In stable","in_ft",119,119,0
+"MTurk 2013","Democrat","Out decline","in_ft",123,123,0
+"MTurk 2013","Democrat","Out stable","in_ft",96,96,0
+"MTurk 2013","Republican","Control","in_ft",41,41,0
+"MTurk 2013","Republican","In decline","in_ft",36,36,0
+"MTurk 2013","Republican","In stable","in_ft",33,33,0
+"MTurk 2013","Republican","Out decline","in_ft",31,31,0
+"MTurk 2013","Republican","Out stable","in_ft",31,31,0
+"MTurk 2013","Democrat","Control","out_ft",100,100,0
+"MTurk 2013","Democrat","In decline","out_ft",114,114,0
+"MTurk 2013","Democrat","In stable","out_ft",119,119,0
+"MTurk 2013","Democrat","Out decline","out_ft",123,123,0
+"MTurk 2013","Democrat","Out stable","out_ft",96,96,0
+"MTurk 2013","Republican","Control","out_ft",41,41,0
+"MTurk 2013","Republican","In decline","out_ft",36,36,0
+"MTurk 2013","Republican","In stable","out_ft",33,33,0
+"MTurk 2013","Republican","Out decline","out_ft",31,31,0
+"MTurk 2013","Republican","Out stable","out_ft",31,31,0
+"MTurk 2013","Democrat","Control","in_traits",100,100,0
+"MTurk 2013","Democrat","In decline","in_traits",114,114,0
+"MTurk 2013","Democrat","In stable","in_traits",119,119,0
+"MTurk 2013","Democrat","Out decline","in_traits",123,123,0
+"MTurk 2013","Democrat","Out stable","in_traits",96,96,0
+"MTurk 2013","Republican","Control","in_traits",41,41,0
+"MTurk 2013","Republican","In decline","in_traits",36,36,0
+"MTurk 2013","Republican","In stable","in_traits",33,33,0
+"MTurk 2013","Republican","Out decline","in_traits",31,31,0
+"MTurk 2013","Republican","Out stable","in_traits",31,31,0
+"MTurk 2013","Democrat","Control","out_traits",100,100,0
+"MTurk 2013","Democrat","In decline","out_traits",114,114,0
+"MTurk 2013","Democrat","In stable","out_traits",119,119,0
+"MTurk 2013","Democrat","Out decline","out_traits",123,123,0
+"MTurk 2013","Democrat","Out stable","out_traits",96,96,0
+"MTurk 2013","Republican","Control","out_traits",41,41,0
+"MTurk 2013","Republican","In decline","out_traits",36,36,0
+"MTurk 2013","Republican","In stable","out_traits",33,33,0
+"MTurk 2013","Republican","Out decline","out_traits",31,31,0
+"MTurk 2013","Republican","Out stable","out_traits",31,31,0
+"YouGov 2018","Democrat","Biased","in_ft",214,207,7
+"YouGov 2018","Democrat","Control","in_ft",217,209,8
+"YouGov 2018","Democrat","Unbiased","in_ft",210,205,5
+"YouGov 2018","Republican","Biased","in_ft",162,158,4
+"YouGov 2018","Republican","Control","in_ft",166,165,1
+"YouGov 2018","Republican","Unbiased","in_ft",164,162,2
+"YouGov 2018","Democrat","Biased","out_ft",214,189,25
+"YouGov 2018","Democrat","Control","out_ft",217,193,24
+"YouGov 2018","Democrat","Unbiased","out_ft",210,180,30
+"YouGov 2018","Republican","Biased","out_ft",162,145,17
+"YouGov 2018","Republican","Control","out_ft",166,150,16
+"YouGov 2018","Republican","Unbiased","out_ft",164,144,20
+"YouGov 2018","Democrat","Biased","in_traits",214,213,1
+"YouGov 2018","Democrat","Control","in_traits",217,215,2
+"YouGov 2018","Democrat","Unbiased","in_traits",210,207,3
+"YouGov 2018","Republican","Biased","in_traits",162,162,0
+"YouGov 2018","Republican","Control","in_traits",166,166,0
+"YouGov 2018","Republican","Unbiased","in_traits",164,164,0
+"YouGov 2018","Democrat","Biased","out_traits",214,212,2
+"YouGov 2018","Democrat","Control","out_traits",217,215,2
+"YouGov 2018","Democrat","Unbiased","out_traits",210,207,3
+"YouGov 2018","Republican","Biased","out_traits",162,161,1
+"YouGov 2018","Republican","Control","out_traits",166,166,0
+"YouGov 2018","Republican","Unbiased","out_traits",164,164,0
+"YouGov 2018","Democrat","Biased","out_complete",214,200,14
+"YouGov 2018","Democrat","Control","out_complete",217,214,3
+"YouGov 2018","Democrat","Unbiased","out_complete",210,199,11
+"YouGov 2018","Republican","Biased","out_complete",162,155,7
+"YouGov 2018","Republican","Control","out_complete",166,160,6
+"YouGov 2018","Republican","Unbiased","out_complete",164,160,4
+"YouGov 2018","Democrat","Biased","in_complete",214,210,4
+"YouGov 2018","Democrat","Control","in_complete",217,210,7
+"YouGov 2018","Democrat","Unbiased","in_complete",210,200,10
+"YouGov 2018","Republican","Biased","in_complete",162,158,4
+"YouGov 2018","Republican","Control","in_complete",166,163,3
+"YouGov 2018","Republican","Unbiased","in_complete",164,161,3

@@ -1,0 +1,5 @@
+"study","contrast","sample","party","outcome","estimate","se","df","low","high","p","n","eligible","baseline","weighted","inference"
+"YouGov","unbiased","Six-item complete","Pooled","out_complete",1.90137970142747,1.45896856437134,719.301040929977,-0.962965819925044,4.76572522277999,0.192911356276878,733,1133,28.7002636839312,FALSE,"Stratified Welch t"
+"YouGov","unbiased","Six-item complete","Pooled","out_complete",2.64601582023749,1.60495497053195,729,-0.504869408520797,5.79690104899579,0.0996493384462277,733,1133,28.4086682683113,TRUE,"Fixed-weight HC3 t"
+"YouGov","biased","Six-item complete","Pooled","in_complete",1.68351238726204,1.39310639363309,736.58113729043,-1.05141993747662,4.41844471200071,0.227258448090463,741,1133,63.575148990823,FALSE,"Stratified Welch t"
+"YouGov","biased","Six-item complete","Pooled","in_complete",1.49310435295455,1.5043664095748,737,-1.46024974270149,4.4464584486106,0.321272714827187,741,1133,63.539735490282,TRUE,"Fixed-weight HC3 t"

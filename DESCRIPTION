@@ -1,0 +1,23 @@
+Package: principled
+Type: Project
+Title: Principled Partisan Affect? Evidence from Two Survey Experiments
+Version: 0.1.0
+Authors@R: c(
+    person("Douglas J.", "Ahler", role = "aut"),
+    person("Carolyn E.", "Roush", role = "aut"),
+    person("Gaurav", "Sood", role = c("aut", "cre"), email = "gsood07@gmail.com"))
+Description: Reproducible analysis of two survey experiments on reactions to
+    partisan responses to political events, with design checks, sensitivity
+    analyses, and a generated research paper.
+Encoding: UTF-8
+Imports:
+    digest,
+    ggplot2,
+    haven,
+    sandwich
+Suggests:
+    lintr,
+    renv,
+    styler,
+    testthat
+Config/testthat/edition: 3

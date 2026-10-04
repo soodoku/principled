@@ -1,0 +1,31 @@
+"party","article","attention","Freq"
+"Democrat","Control","FALSE",3
+"Independent","Control","FALSE",0
+"Republican","Control","FALSE",1
+"Democrat","Democrat decline","FALSE",4
+"Independent","Democrat decline","FALSE",0
+"Republican","Democrat decline","FALSE",1
+"Democrat","Democrat stable","FALSE",6
+"Independent","Democrat stable","FALSE",3
+"Republican","Democrat stable","FALSE",1
+"Democrat","Republican decline","FALSE",1
+"Independent","Republican decline","FALSE",4
+"Republican","Republican decline","FALSE",1
+"Democrat","Republican stable","FALSE",2
+"Independent","Republican stable","FALSE",0
+"Republican","Republican stable","FALSE",2
+"Democrat","Control","TRUE",100
+"Independent","Control","TRUE",35
+"Republican","Control","TRUE",41
+"Democrat","Democrat decline","TRUE",114
+"Independent","Democrat decline","TRUE",40
+"Republican","Democrat decline","TRUE",31
+"Democrat","Democrat stable","TRUE",119
+"Independent","Democrat stable","TRUE",28
+"Republican","Democrat stable","TRUE",31
+"Democrat","Republican decline","TRUE",123
+"Independent","Republican decline","TRUE",34
+"Republican","Republican decline","TRUE",36
+"Democrat","Republican stable","TRUE",96
+"Independent","Republican stable","TRUE",29
+"Republican","Republican stable","TRUE",33

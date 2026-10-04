@@ -1,0 +1,7 @@
+"contrast","assumption","outcome","low","high"
+"unbiased","Wholly missing outcome","out_ft",-10.5495532893999,13.2710225742371
+"unbiased","Wholly missing outcome","out_traits",1.90379713416175,3.23345088160441
+"unbiased","All missing constituent items","out_traits",1.26066892386005,3.78332126526124
+"biased","Wholly missing outcome","in_ft",-1.16002852957612,4.11010648322095
+"biased","Wholly missing outcome","in_traits",1.50597332989876,2.2917774961994
+"biased","All missing constituent items","in_traits",0.769934719638879,2.65653723477301

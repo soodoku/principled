@@ -1,0 +1,17 @@
+"party","current_party","Freq"
+"Democrat","Democrat",630
+"Independent","Democrat",3
+"Republican","Democrat",0
+"Unaligned","Democrat",0
+"Democrat","Independent",7
+"Independent","Independent",308
+"Republican","Independent",1
+"Unaligned","Independent",2
+"Democrat","Republican",3
+"Independent","Republican",4
+"Republican","Republican",491
+"Unaligned","Republican",2
+"Democrat","Unaligned",1
+"Independent","Unaligned",1
+"Republican","Unaligned",0
+"Unaligned","Unaligned",47

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "Please cite the research note when using this analysis."
+title: "Principled Partisan Affect? Evidence from Two Survey Experiments"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Ahler
+    given-names: Douglas J.
+  - family-names: Roush
+    given-names: Carolyn E.
+  - family-names: Sood
+    given-names: Gaurav
+repository-code: https://github.com/soodoku/principled
+preferred-citation:
+  type: unpublished
+  title: "Principled Partisan Affect? Evidence from Two Survey Experiments"
+  authors:
+    - family-names: Ahler
+      given-names: Douglas J.
+    - family-names: Roush
+      given-names: Carolyn E.
+    - family-names: Sood
+      given-names: Gaurav
+  year: 2026
+  notes: Research note.
+  url: https://github.com/soodoku/principled

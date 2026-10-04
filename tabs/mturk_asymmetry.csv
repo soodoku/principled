@@ -1,0 +1,2 @@
+"outcome","estimate","se","df","low","high","p","n","eligible","baseline","weighted","inference"
+"target_ft",5.53603657780125,3.55227306526687,491.399566597316,-1.44348117734093,12.5155543329434,0.119770607939243,583,724,,FALSE,"Stratified Welch t"

@@ -1,6 +1,49 @@
-## Explaining Partisan Affect: Partisan Response to Partisan Response
+# Principled Partisan Affect?
 
-What causes affective polarization? Past research suggests that the increasing affective gulf between partisans is a result of greater disagreement on policy and growing alignment between social and political identities. In this paper, we propose a third source of interparty animus: partisans' response to opposing partisans' biased response to events. Specifically, we argue that partisans punish their opponents for engaging in blatant motivated reasoning but fail to hold their own side accountable for similar failures. To test this theory, we rely on two experiments that exogenously manipulate perceptions of partisan motivated reasoning among co- and opposing partisans. Results from the first study demonstrate that Republicans exhibit this 'bias blind spot,' though the effects are imprecisely estimated; Democrats, on the other hand, do not appear engage in the same behavior. Instead, we find stronger evidence of 'partisan cheerleading': Democrats and Republicans appear to punish in-party supporters for not sufficiently engaging in biased thinking.  Results from the larger-n, nationally representative study that manipulates perceptions of partisan bias in economic evaluations suggests that seeing opposing partisan respond in a neutral manner makes people think more warmly about them.
+**Evidence from Two Survey Experiments**
 
-* [Data](data/)
-* [Scripts](scripts/)
+Douglas J. Ahler, Carolyn E. Roush, and Gaurav Sood
+
+[Read the paper](ms/main.pdf) · [Research design and measurement](docs/design.md) · [Data and reproduction](docs/data.md)
+
+## TL;DR
+
+Do people warm to political opponents who appear fair-minded, and punish their own side for apparent bias? Two survey experiments provide limited evidence of either response.
+
+- **Design.** A 2013 MTurk experiment varied whether Democrats' approval of Obama or Republicans' approval of Cruz declined or remained high after a controversy. A 2018 YouGov experiment assigned partisans to a control article, an article portraying the opposition as fair-minded, or one portraying their own party as biased. These were researcher-modified news stories, with differences beyond the reasoning attributed to partisans.
+- **Main findings.** In YouGov, the fair-minded-opposition article raised favorable trait ratings by **2.5 points** on a 0–100 scale (95% CI [-0.3, 5.4]), but changed warmth by only **0.5 points** ([-2.8, 3.9]). The biased-own-party article produced no clear penalty. In MTurk, declining rather than sustained approval changed own-party warmth by **-4.3 points** ([-8.9, 0.2]), an uncertain estimate in the opposite direction from a reward for holding one's side accountable. The corresponding opposition estimate was **1.2** ([-4.1, 6.5]).
+- **Interpretation.** The trait result is suggestive and sensitive to weighting and item completeness. The evidence does not establish a partisan double standard or show that perceived reasoning quality caused the responses. YouGov never assigned partisans to fair-minded-own-party or biased-opposition stories, so that study cannot separate the target's party from its portrayed behavior. Neither study measures actual reasoning or lasting attitude change.
+
+## Reproduce
+
+Use R 4.6.0, GNU Make, and a TeX installation with XeLaTeX and `latexmk`. R dependencies are pinned in `renv.lock`.
+
+```sh
+make restore
+make check
+```
+
+`make check` rebuilds the analysis, figures, tables, README, and PDF; runs R linting; and tests recodes, estimators, and sample accounting. `make analysis` rebuilds the CSV results alone. `make paper` produces `ms/main.pdf`. No private files are needed.
+
+The main analyses use 724 MTurk partisans passing a pre-treatment attention check and 1,133 YouGov partisans identified by the party measure used to route treatment. Leaners count as partisans. Estimates standardize within-party comparisons to each study's eligible partisan composition. YouGov survey-weighted estimates, complete-item analyses, response rates, missing-outcome bounds, item decomposition, and party-specific results accompany the primary unweighted estimates.
+
+## Repository
+
+| Path | Contents |
+| --- | --- |
+| `data/raw/` | Public respondent-level exports, with original numeric response codes |
+| `data/materials/` | Questionnaires, codebook, and the stimuli used to interpret assignment |
+| `R/` | Shared cleaning, estimation, and figure style |
+| `scripts/` | Reproduction and optional export from privately retained source data |
+| `tabs/`, `figs/` | Generated estimates, diagnostics, tables, and figures |
+| `ms/` | Manuscript source, references, and compiled paper |
+| `docs/` | Design, data provenance, and a claim-to-output ledger |
+| `tests/` | Data integrity and estimator verification |
+
+The public exports omit respondent identifiers, IP addresses, emails, and free text. The authors retain the original files separately; the optional export step does not alter them. See [data documentation](docs/data.md).
+
+## Citation
+
+Ahler, Douglas J., Carolyn E. Roush, and Gaurav Sood. *Principled Partisan Affect? Evidence from Two Survey Experiments*. Research note. See [CITATION.cff](CITATION.cff) for machine-readable metadata.
+
+The README is generated from `docs/README.md.in` and the analysis results. Edit the template to keep quoted estimates synchronized with the paper.
