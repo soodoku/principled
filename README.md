@@ -66,4 +66,14 @@ The README is generated from `docs/README.md.in` and the analysis results. Edit 
 
 <!-- adjacent:start -->
 
+## 🔗 Adjacent Repositories
+
+- [soodoku/partisan_pareto](https://github.com/soodoku/partisan_pareto) — Pareto Partisan: Are Partisans Willing to Bite Their Purse To Spite The Main Opposing Party?
+- [soodoku/sophisticated_cynic](https://github.com/soodoku/sophisticated_cynic) — Is Cynicism Taken as Evidence of Political Sophistication? No.
+- [soodoku/partisan_campaigns](https://github.com/soodoku/partisan_campaigns) — Coming to Dislike Your Opponents
+- [soodoku/dp_nireland](https://github.com/soodoku/dp_nireland) — Replication Data And Scripts for How Can You Think That?: Deliberation and the Learning of Opposing Arguments
+- [soodoku/prospect_theory](https://github.com/soodoku/prospect_theory) — Replication materials
+
+_Powered by [Adjacent](https://github.com/gojiplus/adjacent)_
+
 <!-- adjacent:end -->
