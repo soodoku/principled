@@ -63,3 +63,7 @@ The public exports omit respondent identifiers, IP addresses, emails, and free t
 Ahler, Douglas J., Carolyn E. Roush, and Gaurav Sood. *Principled Partisan Affect? Evidence from Two Survey Experiments*. Research note. See [CITATION.cff](CITATION.cff) for machine-readable metadata.
 
 The README is generated from `docs/README.md.in` and the analysis results. Edit the template to keep quoted estimates synchronized with the paper.
+
+<!-- adjacent:start -->
+
+<!-- adjacent:end -->
